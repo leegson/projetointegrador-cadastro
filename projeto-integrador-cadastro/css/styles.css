@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin:0px;
+}
+
+body{
+    background-color: #d4ccb4;
+}
+.cabecalho{
+    display: flex;
+    font-family: "Montserrat", 'Courier New', Courier, monospace;
+    font-weight: bold;
+    align-items: center;
+    background-color: #a47c4c;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: #2c1c04;
+}
+
+.logoheader{
+    width: 100px;
+}
+
+.perfil{
+    width: 100px;
+}
+
+.fundomadeira{
+    width: 100%;
+    display: flex;
+}
+
+.textoh1{
+color:#f3ecd4;
+font-family: "Montserrat";
+font-weight: bold;
+background-image: url(/img/fundo_madeira.png);
+background-repeat: repeat-x;
+background-size: contain;
+height: 160px;
+width: 100%;
+}
+
+ .textoh1 h1{ 
+    margin-top: 80px;
+    margin-left: 175dvb;
+}
+
+.pesquisa{
+    background-color: #d4ccb4;
+    border-radius: 10px;
+
+}
+.lupabusca{
+    width: 25px;
+}
+
+.txtbusca{
+    background-color: transparent;
+    border: none;
+}
+
+
+.btnbusca{
+    border: none;
+    background-color: #d4ccb4;
+    border-radius: 10px;
+}
+
+main{
+    font-family: "Open Sans";
+    color: #a37c4c;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    margin-top: 5%;;
+    
+}
+
+.dados{
+    width:22%;
+}
+
+.cpfedata{
+    display: flex;
+}
+
+.cpf, .datanasc{
+    display: flex;
+    flex-direction: column;
+}
+
+.cpf input, .datanasc input{
+    width: 90%;
+    margin: 4px;
+    
+
+}
+
+.inline{
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ margin-top: 10px;
+}
+
+.fimform{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.fimform input{
+    width: 10%;
+
+}
+
+
+fieldset{
+    display: flex;
+    border-top: 2px solid #636363;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    text-align: center;    
+    justify-content: center;
+    color:#636363;
+    width: 40%;
+}
+
+
+.fim{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-size: 1rem;
+}
+
+
+.fundo{
+    display: flex;
+    background-color: #f3ecd4;
+    height: 9rem;
+    color:#2c1c04;
+    font-family: "Montserrat";
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+.logofooter{
+    width: 250px;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.endereco{
+    display: flex;
+    flex-direction: column;
+}
+
+.formapag{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.imgpagamento{
+    width: 200px;
+    padding-bottom:px;
+}
+
+.contatos, .formapag, .endereco{
+    margin-top: 30px;
+}
+
+.icone{
+    width: 25px;
+}
+
+.cadastrar{
+    background-color: #a47c4c;
+    border: solid 2px #2c1c04;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color:#2c1c04;
+}
+
+.conta{
+    text-decoration: none;
+    color: #a37c4c;
+}
+
+.icon{
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    font-size: 30px;
+    background-color: #01e675;
+    color: #fff;
+    border-radius: 50%;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 2px 2px 2px #c0bdbd;
+}
+
+.icon .fab{
+    padding-top: 9px;
+}
+
+.icon:hover{
+    background-color: #fff;
+    color:#029e3b;
+    font-weight: 900;
+    box-shadow: 2px 2px 20px #5fe690;
+}
